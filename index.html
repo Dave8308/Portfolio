@@ -1,0 +1,692 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="David Kayode - Software Engineer specializing in building exceptional digital experiences with HTML5, CSS3, Bootstrap 5, and Git. View portfolio and projects.">
+  <meta name="author" content="David Kayode">
+  <meta name="keywords" content="David Kayode, Software Engineer, Frontend Developer, HTML5, CSS3, Bootstrap 5, Git, Portfolio">
+  
+  <title>David Kayode | Software Engineer & UI/UX Specialist</title>
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%230B0B0B'/><text x='50%' y='65%' font-size='50' font-weight='bold' text-anchor='middle' fill='%23D4AF37' font-family='sans-serif'>DK</text></svg>">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap 5.3 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- FontAwesome Icons 6.5 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ==========================================================================
+       1. NAVIGATION BAR
+       ========================================================================== -->
+  <nav class="navbar navbar-expand-lg navbar-custom fixed-top" id="main-nav">
+    <div class="container">
+      <a class="navbar-brand navbar-brand-logo" href="#home">
+        <div class="logo-badge">DK</div>
+        <span class="logo-text">David <span class="text-gold">Kayode</span></span>
+      </a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 me-lg-4">
+          <li class="nav-item">
+            <a class="nav-link active" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+        <a href="#contact" class="btn btn-gold btn-sm">
+          <i class="fa-solid fa-paper-plane"></i> Hire Me
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ==========================================================================
+       2. HERO SECTION
+       ========================================================================== -->
+  <section class="hero-section" id="home">
+    <div class="hero-glow-sphere"></div>
+    
+    <div class="container">
+      <div class="row align-items-center gy-5">
+        <div class="col-lg-7 hero-content">
+          <div class="badge-gold mb-3 reveal">
+            <i class="fa-solid fa-sparkles"></i> Available For Select Opportunities
+          </div>
+          
+          <h1 class="hero-title reveal reveal-delay-1">
+            Hi, I'm <span class="text-gold-gradient">David Kayode</span><br>
+            <span class="fs-2 text-white opacity-90">I am a <span id="typewriter-text">Software Engineer</span><span class="typewriter-cursor"></span></span>
+          </h1>
+
+          <p class="hero-subtitle reveal reveal-delay-2">
+            Specializing in building exceptional digital experiences, clean responsive web layouts, and scalable solutions using <strong class="text-white">HTML5</strong>, <strong class="text-white">CSS3</strong>, <strong class="text-white">Bootstrap 5</strong>, and <strong class="text-white">Git</strong>.
+          </p>
+
+          <div class="tech-pills-container reveal reveal-delay-2">
+            <div class="tech-pill"><i class="fa-brands fa-html5"></i> HTML5 Semantic</div>
+            <div class="tech-pill"><i class="fa-brands fa-css3-alt"></i> Modern CSS3 Grid/Flex</div>
+            <div class="tech-pill"><i class="fa-brands fa-bootstrap"></i> Bootstrap 5</div>
+            <div class="tech-pill"><i class="fa-brands fa-git-alt"></i> Git Version Control</div>
+          </div>
+
+          <div class="hero-cta-group reveal reveal-delay-3">
+            <a href="#projects" class="btn btn-gold">
+              <i class="fa-solid fa-folder-open"></i> View Projects
+            </a>
+            <a href="#contact" class="btn btn-outline-custom">
+              <i class="fa-solid fa-envelope"></i> Contact Me
+            </a>
+          </div>
+
+          <!-- Hero Stats Bar -->
+          <div class="hero-stats-grid reveal reveal-delay-3">
+            <div class="stat-card">
+              <div class="stat-number">3+</div>
+              <div class="stat-label">Years Exp.</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-number">15+</div>
+              <div class="stat-label">Projects Built</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-number">100%</div>
+              <div class="stat-label">Responsive</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-number">Git</div>
+              <div class="stat-label">Workflow</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-5 text-center reveal reveal-delay-2">
+          <div class="hero-graphic-wrapper">
+            <div class="gold-orbit-ring"></div>
+            
+            <!-- Code snippet terminal card -->
+            <div class="hero-code-card">
+              <div class="code-card-header">
+                <span class="dot dot-red"></span>
+                <span class="dot dot-yellow"></span>
+                <span class="dot dot-green"></span>
+                <span class="code-card-title">DavidKayode.config.js</span>
+              </div>
+              <div class="code-snippet text-start">
+                <span class="code-keyword">const</span> <span class="code-variable">developer</span> = {<br>
+                &nbsp;&nbsp;<span class="code-variable">name</span>: <span class="code-string">'David Kayode'</span>,<br>
+                &nbsp;&nbsp;<span class="code-variable">role</span>: <span class="code-string">'Software Engineer'</span>,<br>
+                &nbsp;&nbsp;<span class="code-variable">stack</span>: [<span class="code-string">'HTML5'</span>, <span class="code-string">'CSS3'</span>, <span class="code-string">'Bootstrap 5'</span>, <span class="code-string">'Git'</span>],<br>
+                &nbsp;&nbsp;<span class="code-variable">passion</span>: <span class="code-string">'Pixel Perfect UI & Clean Code'</span>,<br>
+                &nbsp;&nbsp;<span class="code-function">isReadyToBuild</span>: () => <span class="code-keyword">true</span><br>
+                };<br><br>
+                <span class="code-comment">// Let's build something extraordinary!</span><br>
+                <span class="code-variable">console</span>.<span class="code-function">log</span>(<span class="code-string">`Status: ${developer.isReadyToBuild() ? 'ACTIVE' : 'OFFLINE'}`</span>);
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       3. ABOUT ME SECTION
+       ========================================================================== -->
+  <section class="section-padding" id="about">
+    <div class="container">
+      <div class="section-title-wrapper text-center reveal">
+        <span class="badge-gold"><i class="fa-solid fa-user me-1"></i> Get To Know Me</span>
+        <h2 class="section-title">Crafting Clean & <span class="text-gold-gradient">Impactful Software</span></h2>
+      </div>
+
+      <div class="row g-4 align-items-center">
+        <!-- Left: Profile Photo Card -->
+        <div class="col-lg-5 reveal">
+          <div class="profile-image-container">
+            <div class="profile-image-frame">
+              <img src="assets/images/profile.jpg" alt="David Kayode Software Engineer" class="img-fluid">
+            </div>
+            
+            <div class="profile-experience-badge">
+              <div class="badge-icon">
+                <i class="fa-solid fa-code-commit"></i>
+              </div>
+              <div>
+                <div class="badge-text-num">HTML5 / CSS3 / Git</div>
+                <div class="badge-text-label">Core Tech Stack Focus</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right: Story Bio Bento Card -->
+        <div class="col-lg-7 reveal reveal-delay-1">
+          <div class="bento-card">
+            <h3 class="mb-3 fs-3">Hello, I'm <span class="text-gold">David Kayode</span></h3>
+            <p class="text-muted-custom mb-3 fs-6">
+              I am a passionate <strong class="text-white">Software Engineer</strong> dedicated to building high-performance, visually striking, and responsive web platforms. My engineering philosophy revolves around semantic markup, CSS architecture, component-driven design with Bootstrap 5, and version control rigor using Git.
+            </p>
+            <p class="text-muted-custom mb-4 fs-6">
+              Whether architecting a complex Bento Box layout, standardizing custom CSS design systems, or coordinating clean Git branching strategies, I bridge the gap between design vision and technical execution.
+            </p>
+
+            <div class="about-features-list">
+              <div class="feature-item">
+                <i class="fa-solid fa-layer-group feature-icon"></i>
+                <div>
+                  <div class="feature-title">Semantic HTML5</div>
+                  <div class="feature-desc">Accessible, structured markup adhering to SEO best practices.</div>
+                </div>
+              </div>
+
+              <div class="feature-item">
+                <i class="fa-solid fa-wand-magic-sparkles feature-icon"></i>
+                <div>
+                  <div class="feature-title">Modern CSS3</div>
+                  <div class="feature-desc">Custom properties, Flexbox/Grid layouts, glassmorphism & keyframes.</div>
+                </div>
+              </div>
+
+              <div class="feature-item">
+                <i class="fa-brands fa-bootstrap feature-icon"></i>
+                <div>
+                  <div class="feature-title">Bootstrap 5</div>
+                  <div class="feature-desc">Rapid, mobile-first responsive systems & tailored utility integration.</div>
+                </div>
+              </div>
+
+              <div class="feature-item">
+                <i class="fa-brands fa-git-alt feature-icon"></i>
+                <div>
+                  <div class="feature-title">Git & Version Control</div>
+                  <div class="feature-desc">Clean commit history, feature branching, PRs, and team collaboration.</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       4. SKILLS SECTION
+       ========================================================================== -->
+  <section class="section-padding" id="skills">
+    <div class="container">
+      <div class="section-title-wrapper text-center reveal">
+        <span class="badge-gold"><i class="fa-solid fa-laptop-code me-1"></i> Core Competencies</span>
+        <h2 class="section-title">My Technical <span class="text-gold-gradient">Skill Set</span></h2>
+      </div>
+
+      <div class="row g-4">
+        <!-- Skill 1: HTML5 & CSS3 -->
+        <div class="col-md-6 col-lg-3 reveal">
+          <div class="bento-card">
+            <div class="skill-icon-wrapper">
+              <i class="fa-brands fa-html5"></i>
+            </div>
+            <h3 class="skill-card-title">HTML5 & CSS3</h3>
+            <p class="skill-card-desc">
+              Mastery of modern web standards, semantic HTML structure, responsive Flexbox and Grid layouts, CSS custom properties, and fluid animations.
+            </p>
+            
+            <div class="skill-progress-wrapper mb-3">
+              <div class="skill-progress-label">
+                <span>Proficiency</span>
+                <span class="text-gold">95%</span>
+              </div>
+              <div class="skill-progress-bar">
+                <div class="skill-progress-fill" data-progress="95%"></div>
+              </div>
+            </div>
+
+            <div class="skill-tags">
+              <span class="skill-tag">Semantic Tags</span>
+              <span class="skill-tag">Flexbox & Grid</span>
+              <span class="skill-tag">CSS Keyframes</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Skill 2: Bootstrap 5 -->
+        <div class="col-md-6 col-lg-3 reveal reveal-delay-1">
+          <div class="bento-card">
+            <div class="skill-icon-wrapper">
+              <i class="fa-brands fa-bootstrap"></i>
+            </div>
+            <h3 class="skill-card-title">Bootstrap 5</h3>
+            <p class="skill-card-desc">
+              Deep experience leveraging Bootstrap's mobile-first 12-column grid, responsive breakpoints, custom theme overwrites, and accessible UI components.
+            </p>
+            
+            <div class="skill-progress-wrapper mb-3">
+              <div class="skill-progress-label">
+                <span>Proficiency</span>
+                <span class="text-gold">90%</span>
+              </div>
+              <div class="skill-progress-bar">
+                <div class="skill-progress-fill" data-progress="90%"></div>
+              </div>
+            </div>
+
+            <div class="skill-tags">
+              <span class="skill-tag">Grid System</span>
+              <span class="skill-tag">Custom Themes</span>
+              <span class="skill-tag">Utilities</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Skill 3: Git & Version Control -->
+        <div class="col-md-6 col-lg-3 reveal reveal-delay-2">
+          <div class="bento-card">
+            <div class="skill-icon-wrapper">
+              <i class="fa-brands fa-git-alt"></i>
+            </div>
+            <h3 class="skill-card-title">Git & Versioning</h3>
+            <p class="skill-card-desc">
+              Extensive command line experience with Git workflows: branch management, rebase/merge conflict resolution, pull request code reviews, and GitHub actions.
+            </p>
+            
+            <div class="skill-progress-wrapper mb-3">
+              <div class="skill-progress-label">
+                <span>Proficiency</span>
+                <span class="text-gold">88%</span>
+              </div>
+              <div class="skill-progress-bar">
+                <div class="skill-progress-fill" data-progress="88%"></div>
+              </div>
+            </div>
+
+            <div class="skill-tags">
+              <span class="skill-tag">Git Flow</span>
+              <span class="skill-tag">PR Reviews</span>
+              <span class="skill-tag">GitHub</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Skill 4: JS & UI Interactivity -->
+        <div class="col-md-6 col-lg-3 reveal reveal-delay-3">
+          <div class="bento-card">
+            <div class="skill-icon-wrapper">
+              <i class="fa-brands fa-js"></i>
+            </div>
+            <h3 class="skill-card-title">JavaScript & Interactivity</h3>
+            <p class="skill-card-desc">
+              Crafting smooth dynamic web experiences using Vanilla JavaScript, DOM manipulation, event listeners, IntersectionObserver scroll animations, and form validation.
+            </p>
+            
+            <div class="skill-progress-wrapper mb-3">
+              <div class="skill-progress-label">
+                <span>Proficiency</span>
+                <span class="text-gold">85%</span>
+              </div>
+              <div class="skill-progress-bar">
+                <div class="skill-progress-fill" data-progress="85%"></div>
+              </div>
+            </div>
+
+            <div class="skill-tags">
+              <span class="skill-tag">ES6+</span>
+              <span class="skill-tag">DOM Manipulation</span>
+              <span class="skill-tag">Scroll Animations</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       5. PROJECTS SECTION
+       ========================================================================== -->
+  <section class="section-padding" id="projects">
+    <div class="container">
+      <div class="section-title-wrapper text-center reveal">
+        <span class="badge-gold"><i class="fa-solid fa-briefcase me-1"></i> Showcase</span>
+        <h2 class="section-title">Featured <span class="text-gold-gradient">Projects</span></h2>
+        <p class="text-muted-custom mt-2">A selection of recent projects engineered with precision, HTML5, CSS3, Bootstrap, and Git.</p>
+      </div>
+
+      <div class="row g-4">
+        <!-- Project 1: Nexus Analytics -->
+        <div class="col-lg-4 col-md-6 reveal">
+          <div class="bento-card project-card">
+            <div class="project-thumb-wrapper">
+              <span class="badge-gold project-category">SaaS Platform</span>
+              <img src="assets/images/project-1.jpg" alt="Nexus Analytics Dashboard" class="project-thumb">
+              <div class="project-overlay"></div>
+            </div>
+
+            <h3 class="project-title">Nexus Analytics Dashboard</h3>
+            <p class="project-desc">
+              A high-performance SaaS monitoring dashboard featuring real-time data visualizers, obsidian dark aesthetic, customized gold metrics, and fully responsive Bootstrap layout.
+            </p>
+
+            <div class="project-tech-stack">
+              <span class="tech-tag">HTML5</span>
+              <span class="tech-tag">CSS3 Grid</span>
+              <span class="tech-tag">Bootstrap 5</span>
+              <span class="tech-tag">Git</span>
+            </div>
+
+            <div class="project-links">
+              <a href="#" class="project-link-btn" onclick="alert('Launching Live Demo Preview for Nexus Analytics'); return false;">
+                <i class="fa-solid fa-up-right-from-square text-gold"></i> Live Demo
+              </a>
+              <a href="#" class="project-link-btn ms-auto" onclick="alert('Navigating to GitHub Repository: davidkayode/nexus-analytics'); return false;">
+                <i class="fa-brands fa-github text-gold"></i> GitHub
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 2: Aura Luxury Commerce -->
+        <div class="col-lg-4 col-md-6 reveal reveal-delay-1">
+          <div class="bento-card project-card">
+            <div class="project-thumb-wrapper">
+              <span class="badge-gold project-category">E-Commerce</span>
+              <div class="project-svg-art">
+                <svg viewBox="0 0 400 250" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <rect width="400" height="250" rx="12" fill="#121212"/>
+                  <!-- Header bar -->
+                  <rect x="20" y="20" width="360" height="30" rx="6" fill="#1C1C1C" stroke="#D4AF37" stroke-opacity="0.3"/>
+                  <circle cx="40" cy="35" r="5" fill="#D4AF37"/>
+                  <rect x="60" y="31" width="50" height="8" rx="4" fill="#A1A1AA"/>
+                  <rect x="120" y="31" width="40" height="8" rx="4" fill="#A1A1AA"/>
+                  <rect x="330" y="27" width="35" height="16" rx="8" fill="#D4AF37"/>
+                  <!-- Product Cards Grid -->
+                  <rect x="20" y="65" width="110" height="150" rx="10" fill="#1A1A1A" stroke="#2A2A2A"/>
+                  <rect x="30" y="75" width="90" height="80" rx="6" fill="#242424"/>
+                  <path d="M60 115 L75 95 L90 115 Z" fill="#D4AF37" opacity="0.6"/>
+                  <rect x="30" y="165" width="60" height="8" rx="4" fill="#FFFFFF"/>
+                  <rect x="30" y="180" width="40" height="10" rx="4" fill="#D4AF37"/>
+
+                  <rect x="145" y="65" width="110" height="150" rx="10" fill="#1A1A1A" stroke="#D4AF37" stroke-opacity="0.4"/>
+                  <rect x="155" y="75" width="90" height="80" rx="6" fill="#242424"/>
+                  <circle cx="200" cy="115" r="20" fill="#FFD700" opacity="0.4"/>
+                  <rect x="155" y="165" width="70" height="8" rx="4" fill="#FFFFFF"/>
+                  <rect x="155" y="180" width="45" height="10" rx="4" fill="#D4AF37"/>
+
+                  <rect x="270" y="65" width="110" height="150" rx="10" fill="#1A1A1A" stroke="#2A2A2A"/>
+                  <rect x="280" y="75" width="90" height="80" rx="6" fill="#242424"/>
+                  <rect x="280" y="165" width="55" height="8" rx="4" fill="#FFFFFF"/>
+                  <rect x="280" y="180" width="35" height="10" rx="4" fill="#D4AF37"/>
+                </svg>
+              </div>
+              <div class="project-overlay"></div>
+            </div>
+
+            <h3 class="project-title">Aura Luxury Commerce</h3>
+            <p class="project-desc">
+              Sleek e-commerce storefront crafted for premium brands. Built with custom CSS glassmorphic product cards, smooth filter animations, and optimized checkout flow.
+            </p>
+
+            <div class="project-tech-stack">
+              <span class="tech-tag">HTML5</span>
+              <span class="tech-tag">CSS3 Glassmorphism</span>
+              <span class="tech-tag">Vanilla JS</span>
+              <span class="tech-tag">Git</span>
+            </div>
+
+            <div class="project-links">
+              <a href="#" class="project-link-btn" onclick="alert('Launching Live Demo Preview for Aura Commerce'); return false;">
+                <i class="fa-solid fa-up-right-from-square text-gold"></i> Live Demo
+              </a>
+              <a href="#" class="project-link-btn ms-auto" onclick="alert('Navigating to GitHub Repository: davidkayode/aura-commerce'); return false;">
+                <i class="fa-brands fa-github text-gold"></i> GitHub
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 3: DevFlow Git Visualizer -->
+        <div class="col-lg-4 col-md-6 reveal reveal-delay-2">
+          <div class="bento-card project-card">
+            <div class="project-thumb-wrapper">
+              <span class="badge-gold project-category">Developer Tool</span>
+              <div class="project-svg-art">
+                <svg viewBox="0 0 400 250" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <rect width="400" height="250" rx="12" fill="#0E0E0E"/>
+                  <!-- Git Branch Tree Graphic -->
+                  <path d="M80 60 L80 190" stroke="#444" stroke-width="4" stroke-linecap="round"/>
+                  <path d="M80 100 C150 100 150 140 220 140 L320 140" stroke="#D4AF37" stroke-width="4" stroke-linecap="round"/>
+                  <path d="M80 140 C130 140 130 180 180 180 L280 180" stroke="#FFD700" stroke-width="3" stroke-dasharray="6 6" stroke-linecap="round"/>
+
+                  <!-- Commit Nodes -->
+                  <circle cx="80" cy="60" r="10" fill="#D4AF37" stroke="#FFFFFF" stroke-width="2"/>
+                  <circle cx="80" cy="100" r="8" fill="#D4AF37"/>
+                  <circle cx="80" cy="140" r="8" fill="#D4AF37"/>
+                  <circle cx="80" cy="190" r="10" fill="#D4AF37" stroke="#FFFFFF" stroke-width="2"/>
+
+                  <circle cx="160" cy="140" r="8" fill="#FFD700"/>
+                  <circle cx="220" cy="140" r="10" fill="#FFD700" stroke="#FFFFFF" stroke-width="2"/>
+                  <circle cx="320" cy="140" r="8" fill="#D4AF37"/>
+
+                  <!-- Terminal Badge -->
+                  <rect x="210" y="40" width="160" height="70" rx="8" fill="#181818" stroke="#D4AF37" stroke-opacity="0.5"/>
+                  <text x="225" y="65" fill="#50FA7B" font-family="monospace" font-size="12">$ git checkout main</text>
+                  <text x="225" y="85" fill="#FFD700" font-family="monospace" font-size="12">Switched to 'main'</text>
+                </svg>
+              </div>
+              <div class="project-overlay"></div>
+            </div>
+
+            <h3 class="project-title">DevFlow Git Manager</h3>
+            <p class="project-desc">
+              Interactive Git branch visualization GUI web application designed to help engineering teams track commits, pull requests, and release workflows effortlessly.
+            </p>
+
+            <div class="project-tech-stack">
+              <span class="tech-tag">HTML5</span>
+              <span class="tech-tag">Bootstrap 5</span>
+              <span class="tech-tag">Git API</span>
+              <span class="tech-tag">CSS3</span>
+            </div>
+
+            <div class="project-links">
+              <a href="#" class="project-link-btn" onclick="alert('Launching Live Demo Preview for DevFlow Git Manager'); return false;">
+                <i class="fa-solid fa-up-right-from-square text-gold"></i> Live Demo
+              </a>
+              <a href="#" class="project-link-btn ms-auto" onclick="alert('Navigating to GitHub Repository: davidkayode/devflow-git-manager'); return false;">
+                <i class="fa-brands fa-github text-gold"></i> GitHub
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       6. CONTACT SECTION
+       ========================================================================== -->
+  <section class="section-padding" id="contact">
+    <div class="container">
+      <div class="section-title-wrapper text-center reveal">
+        <span class="badge-gold"><i class="fa-solid fa-paper-plane me-1"></i> Get In Touch</span>
+        <h2 class="section-title">Let's Build Something <span class="text-gold-gradient">Great Together</span></h2>
+        <p class="text-muted-custom mt-2">Have a project idea, question, or opportunity? Feel free to reach out directly.</p>
+      </div>
+
+      <div class="row g-4">
+        <!-- Contact Information Bento Column -->
+        <div class="col-lg-5 reveal">
+          <div class="bento-card">
+            <h3 class="mb-4 fs-3">Contact <span class="text-gold">Information</span></h3>
+            
+            <div class="contact-info-card">
+              <div class="contact-info-icon">
+                <i class="fa-solid fa-envelope"></i>
+              </div>
+              <div>
+                <div class="contact-info-label">Direct Email</div>
+                <a href="mailto:david.kayode@example.com" class="contact-info-value">david.kayode@example.com</a>
+              </div>
+            </div>
+
+            <div class="contact-info-card">
+              <div class="contact-info-icon">
+                <i class="fa-solid fa-location-dot"></i>
+              </div>
+              <div>
+                <div class="contact-info-label">Location</div>
+                <div class="contact-info-value">Lagos, Nigeria &bull; Available Remote</div>
+              </div>
+            </div>
+
+            <div class="contact-info-card">
+              <div class="contact-info-icon">
+                <i class="fa-solid fa-briefcase"></i>
+              </div>
+              <div>
+                <div class="contact-info-label">Current Status</div>
+                <div class="contact-info-value text-gold">Open for Full-time & Contract Roles</div>
+              </div>
+            </div>
+
+            <div class="mt-auto pt-3">
+              <div class="contact-info-label mb-2">Connect Across Social Profiles</div>
+              <div class="social-links-row">
+                <a href="https://github.com" target="_blank" class="social-icon-btn" aria-label="GitHub Profile">
+                  <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="https://linkedin.com" target="_blank" class="social-icon-btn" aria-label="LinkedIn Profile">
+                  <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+                <a href="mailto:david.kayode@example.com" class="social-icon-btn" aria-label="Send Email">
+                  <i class="fa-solid fa-envelope"></i>
+                </a>
+                <a href="https://twitter.com" target="_blank" class="social-icon-btn" aria-label="Twitter Profile">
+                  <i class="fa-brands fa-x-twitter"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Contact Form Bento Column -->
+        <div class="col-lg-7 reveal reveal-delay-1">
+          <div class="bento-card">
+            <h3 class="mb-4 fs-3">Send a <span class="text-gold">Message</span></h3>
+
+            <div id="form-alert" class="form-message-alert"></div>
+
+            <form id="contact-form">
+              <div class="row g-3">
+                <div class="col-md-6">
+                  <div class="form-floating">
+                    <input type="text" class="form-control" id="contact-name" placeholder="Your Name" required>
+                    <label for="contact-name">Your Full Name</label>
+                  </div>
+                </div>
+
+                <div class="col-md-6">
+                  <div class="form-floating">
+                    <input type="email" class="form-control" id="contact-email" placeholder="name@example.com" required>
+                    <label for="contact-email">Email Address</label>
+                  </div>
+                </div>
+
+                <div class="col-12">
+                  <div class="form-floating">
+                    <input type="text" class="form-control" id="contact-subject" placeholder="Subject" required>
+                    <label for="contact-subject">Project Subject</label>
+                  </div>
+                </div>
+
+                <div class="col-12">
+                  <div class="form-floating">
+                    <textarea class="form-control" id="contact-message" placeholder="Leave a message here" style="height: 150px" required></textarea>
+                    <label for="contact-message">Your Message</label>
+                  </div>
+                </div>
+
+                <div class="col-12 mt-4">
+                  <button type="submit" class="btn btn-gold w-100 py-3" id="submit-btn">
+                    <i class="fa-solid fa-paper-plane"></i> Send Message
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       7. FOOTER
+       ========================================================================== -->
+  <footer class="footer-custom">
+    <div class="container">
+      <div class="row gy-4 align-items-center">
+        <div class="col-md-6">
+          <a class="navbar-brand navbar-brand-logo" href="#home">
+            <div class="logo-badge">DK</div>
+            <span class="logo-text">David <span class="text-gold">Kayode</span></span>
+          </a>
+          <p class="text-muted-custom mt-2 fs-6 mb-0">
+            Software Engineer specializing in HTML5, CSS3, Bootstrap 5, and Git workflows.
+          </p>
+        </div>
+
+        <div class="col-md-6 text-md-end">
+          <ul class="list-inline mb-0">
+            <li class="list-inline-item me-3"><a href="#home" class="text-muted-custom">Home</a></li>
+            <li class="list-inline-item me-3"><a href="#about" class="text-muted-custom">About</a></li>
+            <li class="list-inline-item me-3"><a href="#skills" class="text-muted-custom">Skills</a></li>
+            <li class="list-inline-item me-3"><a href="#projects" class="text-muted-custom">Projects</a></li>
+            <li class="list-inline-item"><a href="#contact" class="text-muted-custom">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="text-muted-custom fs-6">
+          Copyright &copy; 2026 David Kayode. Built with passion using HTML5, CSS3, & Bootstrap.
+        </div>
+
+        <button id="back-to-top" class="scroll-top-btn" aria-label="Back to Top">
+          <i class="fa-solid fa-arrow-up"></i>
+        </button>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap 5.3 JS Bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  
+  <!-- Custom Application Script -->
+  <script src="js/script.js"></script>
+</body>
+</html>
